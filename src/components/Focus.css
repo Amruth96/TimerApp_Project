@@ -1,0 +1,57 @@
+/* Global reset to remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the entire counter component in the middle of the screen */
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  /* Full height of the viewport */
+    background-color: #f4f4f4;  /* Light background */
+    font-family: 'Arial', sans-serif;  /* Clean font */
+  }
+  
+  /* Styling for the main count display */
+  .counter-text {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the previous count display */
+  .previous-counter-text {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Button styles */
+  .increment-btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;  /* Spacing above the button */
+  }
+  
+  /* Button hover effect */
+  .increment-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add some spacing between elements */
+  .counter-container p {
+    margin: 10px 0;
+  }
+  

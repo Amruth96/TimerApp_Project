@@ -1,0 +1,76 @@
+/* Basic reset to remove margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the timer and buttons */
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the timer display */
+  .timer-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container for the buttons */
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Start button style */
+  .start-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .start-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Stop button style */
+  .stop-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .stop-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Reset button style */
+  .reset-btn {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .reset-btn:hover {
+    background-color: #fb8c00;
+  }
+  
